@@ -47,3 +47,7 @@ footer {
 .social-links a {
   margin-right: 0.5rem;
 }
+
+.link-column a:hover {
+  color: var(--primaryCol);
+}
