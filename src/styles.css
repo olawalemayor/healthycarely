@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primaryCol: #4d77ff;
+  --black: #121212;
+  --grey: #696969;
+  --white: #fff;
+  --secondary: #c7c9d9;
+}
+
+* {
+  font-family: "Manrope";
+  color: var(--black);
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.decor {
+  color: var(--primaryCol);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  color: var(--primaryCol);
+}
+
+.btn.btn-pry {
+  background-color: var(--primaryCol);
+  color: var(--white);
+}
+
+.btn.btn-pry:hover {
+  background-color: var(--black);
+}
+
+.img-bg {
+  border-radius: 50%;
+  position: absolute;
+  right: -60%;
+  top: 30%;
+  z-index: -1;
+  background: var(--primaryCol);
+}
+
+.section-title {
+  font-size: 14px;
+  color: var(--primaryCol);
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin: 0 100px;
+  }
+}

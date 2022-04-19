@@ -1,0 +1,38 @@
+#find-doctor {
+  margin-top: 4rem;
+  position: relative;
+  height: 74vh;
+  overflow: hidden;
+}
+
+.FD-container {
+  width: 40%;
+}
+
+.FD-container .text {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey);
+}
+
+.right-page {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.right-page img {
+  width: 100%;
+}
+
+.hero-circle {
+  height: 803px;
+  right: -30%;
+  width: 803px;
+}
+
+.card-profile-wrapper {
+  position: absolute;
+  top: 10%;
+  left: -40%;
+}

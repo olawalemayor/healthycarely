@@ -1,0 +1,20 @@
+.point {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+.point img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primaryCol);
+  margin-right: 0.7rem;
+}
+
+.point span {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}

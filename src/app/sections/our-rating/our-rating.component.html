@@ -1,0 +1,13 @@
+<div id="our-rating">
+  <div class="section-title">Our Rating</div>
+  <h2>We're employee benefit at 7500+ hospital</h2>
+  <div class="ratings">
+    <div class="rating" *ngFor="let rating of ratings">
+      <app-rating-card
+        [votes]="rating.votes"
+        [title]="rating.title"
+        [rating]="rating.rating"
+      ></app-rating-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+#hero-content {
+  position: relative;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.hero-container {
+  max-width: 50%;
+  margin-top: 100px;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 54px;
+}
+
+.hero-container > .text {
+  font-size: 14px;
+  color: var(--grey);
+  margin-bottom: 1rem;
+  line-height: 20px;
+}
+
+.right-page {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.right-page img {
+  width: 100%;
+}
+
+.hero-circle {
+  height: 1240px;
+  width: 1240px;
+}
+
+.card-profile-wrapper {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}

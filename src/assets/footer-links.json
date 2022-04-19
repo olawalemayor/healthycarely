@@ -1,0 +1,26 @@
+[
+  {
+    "section": "Overview",
+    "links": [
+      { "link": "#", "text": "Checking Health" },
+      { "link": "#", "text": "Find Doctor" },
+      { "link": "#", "text": "Make a Schedule" }
+    ]
+  },
+  {
+    "section": "Company",
+    "links": [
+      { "link": "#", "text": "Home" },
+      { "link": "#", "text": "About" },
+      { "link": "#", "text": "Services" }
+    ]
+  },
+  {
+    "section": "Explore",
+    "links": [
+      { "link": "#", "text": "Terms & Conds" },
+      { "link": "#", "text": "Privacy Policy" },
+      { "link": "#", "text": "Cookies" }
+    ]
+  }
+]

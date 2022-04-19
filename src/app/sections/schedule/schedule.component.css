@@ -1,0 +1,36 @@
+div#make-schedule {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.left-page {
+  margin-right: 4rem;
+}
+
+.left-page .img-wrapper {
+  border: 1px solid var(--primaryCol);
+  border-radius: 1000px;
+  width: 611px;
+  height: 375px;
+  position: relative;
+}
+
+.img-wrapper.second {
+  position: absolute;
+  top: 15px;
+  left: -7px;
+}
+
+.left-page img {
+  position: absolute;
+  width: 100%;
+  top: 6px;
+  left: -3px;
+  border-radius: 1000px;
+}
+
+.content .text {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey);
+}

@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="title">Available doctors</div>
+  <div class="instruction">Select Doctors</div>
+  <div class="doctors">
+    <div class="doctor" *ngFor="let doctor of availableDoctors">
+      <div><img [src]="doctor.imgUrl" /></div>
+      <div class="info">
+        <div class="name">{{ doctor.name }}</div>
+        <div class="role">{{ doctor.role }}</div>
+      </div>
+    </div>
+  </div>
+  <button class="btn">Find Doctor</button>
+</div>

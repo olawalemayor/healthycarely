@@ -1,0 +1,14 @@
+#fast-solutions {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 287px;
+  box-shadow: 0 1px 5px 3px #eee;
+}

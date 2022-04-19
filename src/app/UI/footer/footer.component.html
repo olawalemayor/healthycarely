@@ -1,0 +1,38 @@
+<div id="footer">
+  <footer class="container">
+    <div class="first-column">
+      <h3>
+        <a href="/">Healthy<span class="decor">Carely</span></a>
+      </h3>
+
+      <div class="info">
+        This free App provides a solution to your health needs by offering you a
+        one-stop access to complete information about various medical checkups.
+        This App carries simple tips and advice to help you maintain a healthy
+        lifestyle.
+      </div>
+    </div>
+
+    <div class="link-column" *ngFor="let links of footerLinks">
+      <h4>{{ links.section }}</h4>
+      <li *ngFor="let url of links.links">
+        <a [href]="url.link">{{ url.text }}</a>
+      </li>
+    </div>
+
+    <div class="social-column">
+      <h4>Social Media</h4>
+      <div class="social-links">
+        <a href="#"
+          ><img src="../../../assets//icons/brand/facebook.png" alt=""
+        /></a>
+        <a href="#"
+          ><img src="../../../assets//icons/brand/instagram.png" alt=""
+        /></a>
+        <a href="#"
+          ><img src="../../../assets//icons/brand/coolicon.png" alt=""
+        /></a>
+      </div>
+    </div>
+  </footer>
+</div>

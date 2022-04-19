@@ -1,0 +1,23 @@
+.rating-card {
+  box-shadow: 0 0 5px 2px #eee;
+  padding: 2rem;
+  border-top: 3px solid var(--primaryCol);
+}
+
+.votes {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.rating {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--grey);
+}

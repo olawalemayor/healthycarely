@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "../assets/icons/Search.png",
+    "title": "Check health complaints",
+    "text": "Check the disease so you can easily choose the right specialist"
+  },
+  {
+    "icon": "../assets/icons/Profile.png",
+    "title": "Choose doctor Specialist",
+    "text": "Choose a specialist according to your disease complaints"
+  },
+  {
+    "icon": "../assets/icons/Calendar.png",
+    "title": "Make a Schedule",
+    "text": "Make a schedule with the doctor concerned so you can start the examination"
+  },
+  {
+    "icon": "../assets/icons/Star.png",
+    "title": "Get your Solutions",
+    "text": "After conducting an examination with a specialist we can help find the right healing method"
+  }
+]

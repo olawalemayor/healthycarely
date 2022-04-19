@@ -1,0 +1,17 @@
+.card {
+  text-align: left;
+  padding: 2rem;
+  border-top: 3px solid var(--primaryCol);
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.card-text {
+  color: var(--grey);
+  font-size: 12px;
+  line-height: 16px;
+}

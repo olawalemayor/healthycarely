@@ -1,0 +1,69 @@
+#feedback {
+  position: relative;
+  margin-top: 6rem;
+}
+
+h2,
+.tagline {
+  text-align: center;
+}
+
+.tagline {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey);
+}
+
+.background {
+  position: absolute;
+  width: 95%;
+  height: 14rem;
+  top: 7rem;
+  background: #edf1ff;
+  z-index: -1;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.content-flex .left-side {
+  width: 50%;
+}
+
+.content-flex .image {
+  width: 420px;
+  height: 360px;
+  position: relative;
+  border: 1px solid var(--primaryCol);
+}
+
+.content-flex .image img {
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.content-flex .right-side {
+  width: 50%;
+}
+
+.right-side .text q {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.user .user-name {
+  margin: 1rem 0;
+  padding: 0;
+}

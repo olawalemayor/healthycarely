@@ -1,0 +1,19 @@
+#our-rating {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+h2 {
+  width: 417px;
+  margin: 0 auto;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.rating {
+  width: 287px;
+}

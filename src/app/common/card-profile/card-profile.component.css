@@ -1,0 +1,30 @@
+.card-profile {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 2px 1px #eee;
+}
+
+.card-profile img {
+  border-radius: 50%;
+}
+
+.card-profile .name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--black);
+}
+
+.card-profile .designation {
+  font-size: 12px;
+  color: var(--grey);
+  line-height: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.card-profile button {
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
