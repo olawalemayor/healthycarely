@@ -3,13 +3,15 @@
 
   <h2>step by step to get your solutions</h2>
 
-  <div class="card-container">
-    <div class="cards" *ngFor="let card of fSContents">
-      <app-card
-        [icon]="card.icon"
-        [title]="card.title"
-        [text]="card.text"
-      ></app-card>
+  <div class="responsive-wrap">
+    <div class="card-container">
+      <div class="cards" *ngFor="let card of fSContents">
+        <app-card
+          [icon]="card.icon"
+          [title]="card.title"
+          [text]="card.text"
+        ></app-card>
+      </div>
     </div>
   </div>
 </div>

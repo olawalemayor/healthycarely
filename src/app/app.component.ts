@@ -19,7 +19,6 @@ export class AppComponent implements AfterViewInit {
       ) as NodeListOf<HTMLDivElement>;
 
       reveals.forEach((reveal) => {
-        console.log(window.innerHeight);
         if (reveal.getBoundingClientRect().top < window.innerHeight - 150)
           reveal.classList.add('active');
         else reveal.classList.remove('active');
